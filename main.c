@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
 	
 	for (i=0; i<5; i++)
 	{
-		printf("grade[%d]=%d\n",i, grade[i]);
+		printf("grade[%d]=%d\n",i, ptr[i]);
 	}
 	printf("average=%d", sum/5);
 	
